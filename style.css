@@ -1,0 +1,26 @@
+body{
+
+    background-color: #EBEBEB;
+    
+}
+.my-form{
+    border-radius: 30px;
+    height: 470px;
+    width: 618px;
+    padding-left: 86px;
+    padding-right: 45px;
+    padding-top: 160px;
+    margin-top:64px;
+    background-color: rgba(89, 90, 100,0.8);
+
+    
+}
+form{
+
+    font-size: 15px;
+    color:white;
+}
+h1{
+    color:white;
+}
+
