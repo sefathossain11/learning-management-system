@@ -19,6 +19,11 @@ if(getEmail === email && getPassword === password){
     window.location.href = "dashboard/dashboard.html";
     console.log('login success');
 }
+else{
+    document.getElementById('error-text').style.display = "block";
+  
+    console.log('login failed');
+}
 
 })
 
