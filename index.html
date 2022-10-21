@@ -10,6 +10,22 @@
       padding: 78px 20px;
       background-color: rgba(10, 12, 28, 0.65);
     }
+
+    @media (max-width: 500px) {
+  .my-form{
+     
+      padding: 20px 10px;
+      background-color: rgba(10, 12, 28, 0.65);
+      width: 400px !important;
+      
+  }
+
+  .custom-input{
+   width: 400px !important; 
+  }
+  
+}
+
   </style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,13 +72,13 @@
           </div>
           <div class="row mb-4">
             <label for="inputEmail3" class="col-sm-2 col-form-label fs-5 text-white">Email</label>
-            <div class="col-sm-9">
+            <div class=" col-lg-9 custom-input">
               <input type="email" class="form-control rounded-5 form-control-lg" id="inputEmail3">
             </div>
           </div>
           <div class="row mb-3">
             <label for="inputPassword3" class="col-sm-2 col-form-label fs-5 text-white">Password</label>
-            <div class="col-sm-9">
+            <div class="col-lg-9 custom-input">
               <input type="password" class="form-control rounded-5 form-control-lg" id="inputPassword3">
             </div>
           </div>
