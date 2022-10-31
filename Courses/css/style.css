@@ -1,0 +1,30 @@
+/* side bar start */
+.sidebar{
+    background-color: #042F56;
+}
+/* side bar end */
+
+/* search bar start*/
+.input-group-text {
+    background-color: white;
+}
+/* search bar end */
+
+/* card start */
+.card{
+    margin: 20px;
+}
+.student-number{
+    background-color:lightgray;
+    padding:2px;
+    border-radius:10px;
+}
+/* card end */
+
+/* side bar button start */
+.course-button{
+    margin-bottom: 20px;
+    background-color: goldenrod;
+    
+}
+/* side bar button end */
